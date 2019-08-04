@@ -1,0 +1,286 @@
+Handling lib "zz_boards"...
+Handling lib "i2c"...
+Handling lib "rpc-service-fs"...
+Handling lib "ca-bundle"...
+Handling lib "rpc-service-config"...
+Handling lib "rpc-uart"...
+Handling lib "core"...
+rpc-service-config: Checking out 2.15.0...
+zz_boards: Checking out 2.15.0...
+i2c: Checking out 2.15.0...
+rpc-service-fs: Checking out 2.15.0...
+ca-bundle: Checking out 2.15.0...
+rpc-uart: Checking out 2.15.0...
+core: Checking out 2.15.0...
+rpc-service-config: Done, hash b30e187977d8dafcb4297cff60e036855a7ff531
+i2c: Done, hash a2135aa5d5ff423f949d9e08c481eb0dc0091f2a
+zz_boards: Done, hash 897a76f9b7306751dea4596f38df4486548ae2da
+ca-bundle: Done, hash 82e0f7f0ea4b584f092146c18c6e28c015238243
+rpc-uart: Done, hash 4c68e5d7b3eecb19ccc6128f111a118384ed20b4
+rpc-service-config: Hash unchanged at b30e187977d8dafcb4297cff60e036855a7ff531 (dir "/home/sk/mos/empty/deps/rpc-service-config")
+rpc-service-config: Prepared local dir: "/home/sk/mos/empty/deps/rpc-service-config"
+i2c: Hash unchanged at a2135aa5d5ff423f949d9e08c481eb0dc0091f2a (dir "/home/sk/mos/empty/deps/i2c")
+i2c: Prepared local dir: "/home/sk/mos/empty/deps/i2c"
+rpc-service-fs: Done, hash 5f252c2fa5ba989c09f734a4c407bcfef3699e38
+zz_boards: Hash unchanged at 897a76f9b7306751dea4596f38df4486548ae2da (dir "/home/sk/mos/empty/deps/boards")
+zz_boards: Prepared local dir: "/home/sk/mos/empty/deps/boards"
+ca-bundle: Hash unchanged at 82e0f7f0ea4b584f092146c18c6e28c015238243 (dir "/home/sk/mos/empty/deps/ca-bundle")
+ca-bundle: Prepared local dir: "/home/sk/mos/empty/deps/ca-bundle"
+rpc-uart: Hash unchanged at 4c68e5d7b3eecb19ccc6128f111a118384ed20b4 (dir "/home/sk/mos/empty/deps/rpc-uart")
+rpc-uart: Prepared local dir: "/home/sk/mos/empty/deps/rpc-uart"
+core: Done, hash 90f56f1e361c7d25ef8c2e3b9a83ef0369760f2e
+rpc-service-fs: Hash unchanged at 5f252c2fa5ba989c09f734a4c407bcfef3699e38 (dir "/home/sk/mos/empty/deps/rpc-service-fs")
+rpc-service-fs: Prepared local dir: "/home/sk/mos/empty/deps/rpc-service-fs"
+core: Hash unchanged at 90f56f1e361c7d25ef8c2e3b9a83ef0369760f2e (dir "/home/sk/mos/empty/deps/core")
+core: Prepared local dir: "/home/sk/mos/empty/deps/core"
+Handling lib "rpc-common"...
+rpc-common: Checking out 2.15.0...
+rpc-common: Done, hash 4591983b26e3a2d49e7f439856a8c95b788b3a8c
+rpc-common: Hash unchanged at 4591983b26e3a2d49e7f439856a8c95b788b3a8c (dir "/home/sk/mos/empty/deps/rpc-common")
+rpc-common: Prepared local dir: "/home/sk/mos/empty/deps/rpc-common"
+Handling lib "mongoose"...
+mongoose: Checking out 2.15.0...
+mongoose: Done, hash b9adb81060805d1de1b185549efb33ce920a210b
+mongoose: Hash unchanged at b9adb81060805d1de1b185549efb33ce920a210b (dir "/home/sk/mos/empty/deps/mongoose")
+mongoose: Prepared local dir: "/home/sk/mos/empty/deps/mongoose"
+Handling lib "mbedtls"...
+Handling lib "vfs-common"...
+vfs-common: Checking out 2.15.0...
+mbedtls: Checking out 2.15.0...
+vfs-common: Done, hash ae048a19d8f17f332d66fb42d1b072e8fde2b3fa
+vfs-common: Hash unchanged at ae048a19d8f17f332d66fb42d1b072e8fde2b3fa (dir "/home/sk/mos/empty/deps/vfs-common")
+vfs-common: Prepared local dir: "/home/sk/mos/empty/deps/vfs-common"
+mbedtls: Done, hash a98f87ef6ef18777c95afb71b2884615d8971be6
+mbedtls: Hash unchanged at a98f87ef6ef18777c95afb71b2884615d8971be6 (dir "/home/sk/mos/empty/deps/mbedtls")
+mbedtls: Prepared local dir: "/home/sk/mos/empty/deps/mbedtls"
+Handling lib "atca"...
+atca: Checking out 2.15.0...
+atca: Done, hash f27a1b85d87e373f8c10aadd7227af020d997aef
+atca: Hash unchanged at f27a1b85d87e373f8c10aadd7227af020d997aef (dir "/home/sk/mos/empty/deps/atca")
+atca: Prepared local dir: "/home/sk/mos/empty/deps/atca"
+Handling lib "freertos"...
+Handling lib "vfs-fs-lfs"...
+Handling lib "vfs-fs-spiffs"...
+freertos: Checking out 2.15.0...
+vfs-fs-lfs: Checking out 2.15.0...
+vfs-fs-spiffs: Checking out 2.15.0...
+freertos: Done, hash b8ed791ec9e61a5784f3ae78829b2ef2d1aca638
+vfs-fs-lfs: Done, hash 5ce8db483be7703bf94b007460cf5e799a2bb8c0
+freertos: Hash unchanged at b8ed791ec9e61a5784f3ae78829b2ef2d1aca638 (dir "/home/sk/mos/empty/deps/freertos")
+freertos: Prepared local dir: "/home/sk/mos/empty/deps/freertos"
+vfs-fs-lfs: Hash unchanged at 5ce8db483be7703bf94b007460cf5e799a2bb8c0 (dir "/home/sk/mos/empty/deps/vfs-fs-lfs")
+vfs-fs-lfs: Prepared local dir: "/home/sk/mos/empty/deps/vfs-fs-lfs"
+vfs-fs-spiffs: Done, hash 6fef5f74fc5f8e07b6324759066c0e9d06653693
+vfs-fs-spiffs: Hash unchanged at 6fef5f74fc5f8e07b6324759066c0e9d06653693 (dir "/home/sk/mos/empty/deps/vfs-fs-spiffs")
+vfs-fs-spiffs: Prepared local dir: "/home/sk/mos/empty/deps/vfs-fs-spiffs"
+Handling lib "wifi"...
+wifi: Checking out 2.15.0...
+wifi: Done, hash 328e3d98c1c81163ecbda6cab18e53f1430b4f4e
+wifi: Hash unchanged at 328e3d98c1c81163ecbda6cab18e53f1430b4f4e (dir "/home/sk/mos/empty/deps/wifi")
+wifi: Prepared local dir: "/home/sk/mos/empty/deps/wifi"
+The flag --repo is not given, going to use mongoose-os repository
+mongoose-os: Checking out 2.15.0...
+mongoose-os: Done, hash 787ac38aae90231b9db9c71cf19dfc617ca58166
+Prebuilt binary for "mbedtls" already exists at "/home/sk/mos/empty/build/objs/libmbedtls-esp32-2.15.0.a"
+Prebuilt binary for "mongoose" already exists at "/home/sk/mos/empty/build/objs/libmongoose-esp32-2.15.0.a"
+Sources: [/home/sk/mos/empty/src/ds3231.c /home/sk/mos/empty/src/main.c /home/sk/mos/empty/src/simple.c /home/sk/mos/empty/build/gen/mgos_deps_init.c /home/sk/mos/empty/deps/freertos/src/mgos_freertos.c /home/sk/mos/empty/deps/freertos/src/mgos_freertos_core_dump.c /home/sk/mos/empty/deps/i2c/src/mgos_i2c_master.c /home/sk/mos/empty/deps/i2c/src/esp32/esp32_i2c_master.c /home/sk/mos/empty/deps/atca/src/mgos_atca.c /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/atca_cfgs.c /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/atca_command.c /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/atca_device.c /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/atca_iface.c /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/basic/atca_basic.c /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/basic/atca_helpers.c /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/host/atca_host.c /home/sk/mos/empty/deps/vfs-common/src/mgos_vfs.c /home/sk/mos/empty/deps/vfs-common/src/mgos_vfs_dev.c /home/sk/mos/empty/deps/vfs-common/src/mgos_vfs_internal.c /home/sk/mos/empty/deps/vfs-common/src/esp32/esp32_fs.c /home/sk/mos/empty/deps/vfs-common/src/esp32/esp32_fs_crypt.c /home/sk/mos/empty/deps/vfs-common/src/esp32/esp32_vfs_dev_partition.c /home/sk/mos/empty/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c /home/sk/mos/empty/deps/vfs-fs-lfs/littlefs/lfs.c /home/sk/mos/empty/deps/vfs-fs-lfs/littlefs/lfs_util.c /home/sk/mos/empty/deps/vfs-fs-lfs/littlefs1/lfs1.c /home/sk/mos/empty/deps/vfs-fs-lfs/littlefs1/lfs1_util.c /home/sk/mos/empty/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c /home/sk/mos/empty/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c /home/sk/mos/empty/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c /home/sk/mos/empty/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c /home/sk/mos/empty/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c /home/sk/mos/empty/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c /home/sk/mos/empty/deps/core/src/mgos_core.c /home/sk/mos/empty/deps/rpc-common/src/mg_rpc.c /home/sk/mos/empty/deps/rpc-common/src/mg_rpc_channel.c /home/sk/mos/empty/deps/rpc-common/src/mg_rpc_channel_http.c /home/sk/mos/empty/deps/rpc-common/src/mgos_rpc.c /home/sk/mos/empty/deps/rpc-service-config/src/mgos_service_config.c /home/sk/mos/empty/deps/rpc-service-fs/src/mgos_service_filesystem.c /home/sk/mos/empty/deps/rpc-uart/src/mgos_rpc_channel_uart.c /home/sk/mos/empty/deps/wifi/src/mgos_wifi.c /home/sk/mos/empty/deps/wifi/src/mjs_wifi.c /home/sk/mos/empty/deps/wifi/src/esp32/esp32_wifi.c]
+Include dirs: [/home/sk/mos/empty/deps/freertos/include /home/sk/mos/empty/deps/freertos/include/esp32 /home/sk/mos/empty/deps/i2c/include /home/sk/mos/empty/deps/atca/include /home/sk/mos/empty/deps/atca/cryptoauthlib/lib /home/sk/mos/empty/deps/mbedtls/include /home/sk/mos/empty/deps/mbedtls/include/esp32 /home/sk/mos/empty/deps/mbedtls/mbedtls/include /home/sk/mos/empty/deps/vfs-common/include /home/sk/mos/empty/deps/vfs-common/include/esp32 /home/sk/mos/empty/deps/mongoose/include /home/sk/mos/empty/deps/vfs-fs-lfs/include /home/sk/mos/empty/deps/vfs-fs-lfs/littlefs /home/sk/mos/empty/deps/vfs-fs-lfs/littlefs1 /home/sk/mos/empty/deps/vfs-fs-spiffs/include /home/sk/mos/empty/deps/vfs-fs-spiffs/include/spiffs /home/sk/mos/empty/deps/vfs-fs-spiffs/include/esp32 /home/sk/mos/empty/deps/core/include /home/sk/mos/empty/deps/core/include/esp32 /home/sk/mos/empty/deps/rpc-common/include /home/sk/mos/empty/deps/rpc-service-config/include /home/sk/mos/empty/deps/rpc-service-fs/include /home/sk/mos/empty/deps/rpc-uart/include /home/sk/mos/empty/deps/wifi/include /home/sk/mos/empty/deps/wifi/include/esp32]
+Binary libs: [/home/sk/mos/empty/build/objs/libmbedtls-esp32-2.15.0.a /home/sk/mos/empty/build/objs/libmongoose-esp32-2.15.0.a]
+Building...
+mount from "/home/sk/mos/empty" to "/app"
+mount from "/home/sk/mos/empty/deps/modules/mongoose-os" to "/mongoose-os"
+mount from "/home/sk/mos/empty/deps/modules/mongoose-os" to "/home/sk/mos/empty/deps/modules/mongoose-os"
+mount from "/home/sk/mos/empty/build" to "/home/sk/mos/empty/build"
+mount from "/home/sk/mos/empty/src" to "/home/sk/mos/empty/src"
+mount from "/home/sk/mos/empty/build/gen" to "/home/sk/mos/empty/build/gen"
+mount from "/home/sk/mos/empty/deps/freertos/src" to "/home/sk/mos/empty/deps/freertos/src"
+mount from "/home/sk/mos/empty/deps/i2c/src" to "/home/sk/mos/empty/deps/i2c/src"
+mount from "/home/sk/mos/empty/deps/i2c/src/esp32" to "/home/sk/mos/empty/deps/i2c/src/esp32"
+mount from "/home/sk/mos/empty/deps/atca/src" to "/home/sk/mos/empty/deps/atca/src"
+mount from "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib" to "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib"
+mount from "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/basic" to "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/basic"
+mount from "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/crypto" to "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/crypto"
+mount from "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/hal" to "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/hal"
+mount from "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/host" to "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/host"
+mount from "/home/sk/mos/empty/deps/vfs-common/src" to "/home/sk/mos/empty/deps/vfs-common/src"
+mount from "/home/sk/mos/empty/deps/vfs-common/src/esp32" to "/home/sk/mos/empty/deps/vfs-common/src/esp32"
+mount from "/home/sk/mos/empty/deps/vfs-fs-lfs/src" to "/home/sk/mos/empty/deps/vfs-fs-lfs/src"
+mount from "/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs" to "/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs"
+mount from "/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs1" to "/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs1"
+mount from "/home/sk/mos/empty/deps/vfs-fs-spiffs/src" to "/home/sk/mos/empty/deps/vfs-fs-spiffs/src"
+mount from "/home/sk/mos/empty/deps/vfs-fs-spiffs/src/spiffs" to "/home/sk/mos/empty/deps/vfs-fs-spiffs/src/spiffs"
+mount from "/home/sk/mos/empty/deps/core/src" to "/home/sk/mos/empty/deps/core/src"
+mount from "/home/sk/mos/empty/deps/rpc-common/src" to "/home/sk/mos/empty/deps/rpc-common/src"
+mount from "/home/sk/mos/empty/deps/rpc-service-config/src" to "/home/sk/mos/empty/deps/rpc-service-config/src"
+mount from "/home/sk/mos/empty/deps/rpc-service-fs/src" to "/home/sk/mos/empty/deps/rpc-service-fs/src"
+mount from "/home/sk/mos/empty/deps/rpc-uart/src" to "/home/sk/mos/empty/deps/rpc-uart/src"
+mount from "/home/sk/mos/empty/deps/wifi/src" to "/home/sk/mos/empty/deps/wifi/src"
+mount from "/home/sk/mos/empty/deps/wifi/src/esp32" to "/home/sk/mos/empty/deps/wifi/src/esp32"
+mount from "/home/sk/mos/empty/deps/freertos/include" to "/home/sk/mos/empty/deps/freertos/include"
+mount from "/home/sk/mos/empty/deps/i2c/include" to "/home/sk/mos/empty/deps/i2c/include"
+mount from "/home/sk/mos/empty/deps/atca/include" to "/home/sk/mos/empty/deps/atca/include"
+mount from "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib" to "/home/sk/mos/empty/deps/atca/cryptoauthlib/lib"
+mount from "/home/sk/mos/empty/deps/mbedtls/include" to "/home/sk/mos/empty/deps/mbedtls/include"
+mount from "/home/sk/mos/empty/deps/mbedtls/include/esp32" to "/home/sk/mos/empty/deps/mbedtls/include/esp32"
+mount from "/home/sk/mos/empty/deps/mbedtls/mbedtls/include" to "/home/sk/mos/empty/deps/mbedtls/mbedtls/include"
+mount from "/home/sk/mos/empty/deps/vfs-common/include" to "/home/sk/mos/empty/deps/vfs-common/include"
+mount from "/home/sk/mos/empty/deps/vfs-common/include/esp32" to "/home/sk/mos/empty/deps/vfs-common/include/esp32"
+mount from "/home/sk/mos/empty/deps/mongoose/include" to "/home/sk/mos/empty/deps/mongoose/include"
+mount from "/home/sk/mos/empty/deps/vfs-fs-lfs/include" to "/home/sk/mos/empty/deps/vfs-fs-lfs/include"
+mount from "/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs" to "/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs"
+mount from "/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs1" to "/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs1"
+mount from "/home/sk/mos/empty/deps/vfs-fs-spiffs/include" to "/home/sk/mos/empty/deps/vfs-fs-spiffs/include"
+mount from "/home/sk/mos/empty/deps/vfs-fs-spiffs/include/spiffs" to "/home/sk/mos/empty/deps/vfs-fs-spiffs/include/spiffs"
+mount from "/home/sk/mos/empty/deps/vfs-fs-spiffs/include/esp32" to "/home/sk/mos/empty/deps/vfs-fs-spiffs/include/esp32"
+mount from "/home/sk/mos/empty/deps/core/include" to "/home/sk/mos/empty/deps/core/include"
+mount from "/home/sk/mos/empty/deps/rpc-common/include" to "/home/sk/mos/empty/deps/rpc-common/include"
+mount from "/home/sk/mos/empty/deps/rpc-service-config/include" to "/home/sk/mos/empty/deps/rpc-service-config/include"
+mount from "/home/sk/mos/empty/deps/rpc-service-fs/include" to "/home/sk/mos/empty/deps/rpc-service-fs/include"
+mount from "/home/sk/mos/empty/deps/rpc-uart/include" to "/home/sk/mos/empty/deps/rpc-uart/include"
+mount from "/home/sk/mos/empty/deps/wifi/include" to "/home/sk/mos/empty/deps/wifi/include"
+mount from "/home/sk/mos/empty/deps/wifi/include/esp32" to "/home/sk/mos/empty/deps/wifi/include/esp32"
+mount from "/home/sk/mos/empty/deps/ca-bundle/fs" to "/home/sk/mos/empty/deps/ca-bundle/fs"
+mount from "/home/sk/mos/empty/fs" to "/home/sk/mos/empty/fs"
+mount from "/home/sk/mos/empty/build/objs" to "/home/sk/mos/empty/build/objs"
+mount from "/home/sk/mos/empty/build/objs" to "/home/sk/mos/empty/build/objs"
+mount from "/home/sk/mos/empty/build/gen" to "/home/sk/mos/empty/build/gen"
+Docker arguments: run --name mos_build_2019-08-05T02-07-39-00_3584172040396666112 --rm -i -v /home/sk/mos/empty/deps/rpc-uart/src:/home/sk/mos/empty/deps/rpc-uart/src -v /home/sk/mos/empty/deps/vfs-common/include:/home/sk/mos/empty/deps/vfs-common/include -v /home/sk/mos/empty/deps/vfs-fs-spiffs/include:/home/sk/mos/empty/deps/vfs-fs-spiffs/include -v /home/sk/mos/empty/deps/rpc-common/include:/home/sk/mos/empty/deps/rpc-common/include -v /home/sk/mos/empty/deps/rpc-service-config/include:/home/sk/mos/empty/deps/rpc-service-config/include -v /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/hal:/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/hal -v /home/sk/mos/empty/deps/rpc-service-fs/src:/home/sk/mos/empty/deps/rpc-service-fs/src -v /home/sk/mos/empty/src:/home/sk/mos/empty/src -v /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/basic:/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/basic -v /home/sk/mos/empty/deps/vfs-common/src:/home/sk/mos/empty/deps/vfs-common/src -v /home/sk/mos/empty/deps/vfs-common/src/esp32:/home/sk/mos/empty/deps/vfs-common/src/esp32 -v /home/sk/mos/empty/deps/wifi/src/esp32:/home/sk/mos/empty/deps/wifi/src/esp32 -v /home/sk/mos/empty/deps/atca/include:/home/sk/mos/empty/deps/atca/include -v /home/sk/mos/empty/deps/modules/mongoose-os:/mongoose-os -v /home/sk/mos/empty/deps/modules/mongoose-os:/home/sk/mos/empty/deps/modules/mongoose-os -v /home/sk/mos/empty/deps/vfs-fs-spiffs/include/esp32:/home/sk/mos/empty/deps/vfs-fs-spiffs/include/esp32 -v /home/sk/mos/empty/deps/mbedtls/include/esp32:/home/sk/mos/empty/deps/mbedtls/include/esp32 -v /home/sk/mos/empty/deps/vfs-common/include/esp32:/home/sk/mos/empty/deps/vfs-common/include/esp32 -v /home/sk/mos/empty/deps/i2c/src/esp32:/home/sk/mos/empty/deps/i2c/src/esp32 -v /home/sk/mos/empty/deps/atca/src:/home/sk/mos/empty/deps/atca/src -v /home/sk/mos/empty/deps/core/src:/home/sk/mos/empty/deps/core/src -v /home/sk/mos/empty/deps/rpc-common/src:/home/sk/mos/empty/deps/rpc-common/src -v /home/sk/mos/empty/deps/mongoose/include:/home/sk/mos/empty/deps/mongoose/include -v /home/sk/mos/empty/build:/home/sk/mos/empty/build -v /home/sk/mos/empty/build/gen:/home/sk/mos/empty/build/gen -v /home/sk/mos/empty/fs:/home/sk/mos/empty/fs -v /home/sk/mos/empty/deps/vfs-fs-spiffs/src:/home/sk/mos/empty/deps/vfs-fs-spiffs/src -v /home/sk/mos/empty/deps/ca-bundle/fs:/home/sk/mos/empty/deps/ca-bundle/fs -v /home/sk/mos/empty/deps/rpc-uart/include:/home/sk/mos/empty/deps/rpc-uart/include -v /home/sk/mos/empty/deps/wifi/include:/home/sk/mos/empty/deps/wifi/include -v /home/sk/mos/empty/deps/atca/cryptoauthlib/lib:/home/sk/mos/empty/deps/atca/cryptoauthlib/lib -v /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/crypto:/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/crypto -v /home/sk/mos/empty/deps/atca/cryptoauthlib/lib/host:/home/sk/mos/empty/deps/atca/cryptoauthlib/lib/host -v /home/sk/mos/empty/deps/vfs-fs-lfs/littlefs1:/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs1 -v /home/sk/mos/empty/deps/freertos/include:/home/sk/mos/empty/deps/freertos/include -v /home/sk/mos/empty/deps/mbedtls/include:/home/sk/mos/empty/deps/mbedtls/include -v /home/sk/mos/empty/deps/core/include:/home/sk/mos/empty/deps/core/include -v /home/sk/mos/empty/deps/wifi/include/esp32:/home/sk/mos/empty/deps/wifi/include/esp32 -v /home/sk/mos/empty:/app -v /home/sk/mos/empty/deps/freertos/src:/home/sk/mos/empty/deps/freertos/src -v /home/sk/mos/empty/deps/vfs-fs-lfs/littlefs:/home/sk/mos/empty/deps/vfs-fs-lfs/littlefs -v /home/sk/mos/empty/deps/vfs-fs-spiffs/src/spiffs:/home/sk/mos/empty/deps/vfs-fs-spiffs/src/spiffs -v /home/sk/mos/empty/deps/rpc-service-config/src:/home/sk/mos/empty/deps/rpc-service-config/src -v /home/sk/mos/empty/deps/wifi/src:/home/sk/mos/empty/deps/wifi/src -v /home/sk/mos/empty/deps/i2c/include:/home/sk/mos/empty/deps/i2c/include -v /home/sk/mos/empty/deps/mbedtls/mbedtls/include:/home/sk/mos/empty/deps/mbedtls/mbedtls/include -v /home/sk/mos/empty/deps/i2c/src:/home/sk/mos/empty/deps/i2c/src -v /home/sk/mos/empty/deps/vfs-fs-lfs/src:/home/sk/mos/empty/deps/vfs-fs-lfs/src -v /home/sk/mos/empty/deps/rpc-service-fs/include:/home/sk/mos/empty/deps/rpc-service-fs/include -v /home/sk/mos/empty/build/objs:/home/sk/mos/empty/build/objs -v /home/sk/mos/empty/deps/vfs-fs-lfs/include:/home/sk/mos/empty/deps/vfs-fs-lfs/include -v /home/sk/mos/empty/deps/vfs-fs-spiffs/include/spiffs:/home/sk/mos/empty/deps/vfs-fs-spiffs/include/spiffs --user 1000:1000 docker.io/mgos/esp32-build:3.2-r7 /bin/bash -c nice make '-j' '4' '-C' '/app' '-f' '/home/sk/mos/empty/deps/modules/mongoose-os/platforms/esp32/Makefile.build' 'all' 'MGOS_VARS_FILE=/home/sk/mos/empty/build/gen/vars.mk'
+make: Entering directory '/app'
+Toolchain path: /opt/Espressif/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+Toolchain version: crosstool-ng-1.22.0-80-g6c4433a
+Compiler version: 5.2.0
+/home/sk/mos/empty/deps/modules/mongoose-os/platforms/esp32/Makefile.build:186: warning: overriding recipe for target 'defconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:76: warning: ignoring old recipe for target 'defconfig'
+/home/sk/mos/empty/deps/modules/mongoose-os/platforms/esp32/Makefile.build:186: warning: overriding recipe for target 'menuconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:63: warning: ignoring old recipe for target 'menuconfig'
+/home/sk/mos/empty/deps/modules/mongoose-os/platforms/esp32/Makefile.build:228: warning: overriding recipe for target 'clean'
+/opt/Espressif/esp-idf/components/app_update/Makefile.projbuild:60: warning: ignoring old recipe for target 'clean'
+make[1]: Entering directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
+make[1]: Entering directory '/home/sk/mos/empty/build/objs/mosapp'
+  CC mgos_debug.o
+make[1]: Entering directory '/home/sk/mos/empty/build/objs/spiffs'
+CC /home/sk/mos/empty/build/objs/spiffs/spiffs_api.o
+Python requirements from /opt/Espressif/esp-idf/requirements.txt are satisfied.
+  MKDIR /home/sk/mos/empty/build/objs/fw_temp
+  CC mgos_net.o
+CC /home/sk/mos/empty/build/objs/spiffs/esp_spiffs.o
+  CC mgos_bitbang.o
+  MKDIR /home/sk/mos/empty/build/fw
+Building partitions from /home/sk/mos/empty/deps/modules/mongoose-os/platforms/esp32/src/partitions_mgos.csv...
+  CC mgos_config_util.o
+CC /home/sk/mos/empty/build/objs/spiffs/spiffs/src/spiffs_cache.o
+CC /home/sk/mos/empty/build/objs/spiffs/spiffs/src/spiffs_gc.o
+  CC mgos_core_dump.o
+CC /home/sk/mos/empty/build/objs/spiffs/spiffs/src/spiffs_nucleus.o
+  CC mgos_dlsym.o
+  CC mgos_event.o
+  CC mgos_gpio.o
+CC /home/sk/mos/empty/build/objs/spiffs/spiffs/src/spiffs_check.o
+  CC mgos_init.o
+  CC mgos_mmap_esp.o
+  CC mgos_sys_config.o
+CC /home/sk/mos/empty/build/objs/spiffs/spiffs/src/spiffs_hydrogen.o
+  CC /home/sk/mos/empty/build/gen/mgos_config.o
+  CC mgos_ro_vars.o
+  CC mgos_file_utils.o
+AR /home/sk/mos/empty/build/objs/spiffs/libspiffs.a
+make[1]: Leaving directory '/home/sk/mos/empty/build/objs/spiffs'
+  CC mgos_hw_timers.o
+  CC mgos_system.o
+  CC mgos_time.o
+  CC mgos_timers.o
+  CC mgos_uart.o
+  CC mgos_utils.o
+  CC esp32_crypto.o
+  CC esp32_debug.o
+  CC esp32_exc.o
+  CC esp32_fs_crypt.o
+  CC esp32_gpio.o
+  CC esp32_hal.o
+make[1]: Leaving directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
+  CC esp32_hw_timers.o
+  CC esp32_main.o
+  CC esp32_uart.o
+  CXX error_codes.o
+  CXX status.o
+  CC cs_crc32.o
+  CC cs_file.o
+  CC cs_rbuf.o
+  CC json_utils.o
+  CC frozen.o
+  CC ds3231.o
+  CC main.o
+  CC simple.o
+  CC mgos_deps_init.o
+  CC mgos_freertos.o
+  CC mgos_freertos_core_dump.o
+  CC mgos_i2c_master.o
+  CC esp32_i2c_master.o
+  CC mgos_atca.o
+  CC atca_cfgs.o
+  CC atca_command.o
+  CC atca_device.o
+  CC atca_iface.o
+  CC atca_basic.o
+  CC atca_helpers.o
+  CC atca_host.o
+  CC mgos_vfs.o
+  CC mgos_vfs_dev.o
+  CC mgos_vfs_internal.o
+  CC esp32_fs.o
+  CC esp32_vfs_dev_partition.o
+  CC mgos_vfs_lfs.o
+  CC lfs.o
+  CC lfs_util.o
+  CC lfs1.o
+  CC lfs1_util.o
+  CC mgos_vfs_fs_spiffs.o
+  CC spiffs_cache.o
+  CC spiffs_check.o
+  CC spiffs_gc.o
+  CC spiffs_hydrogen.o
+  CC spiffs_nucleus.o
+  CC mgos_core.o
+  CC mg_rpc.o
+  CC mg_rpc_channel.o
+  CC mg_rpc_channel_http.o
+  CC mgos_rpc.o
+  CC mgos_service_config.o
+  CC mgos_service_filesystem.o
+  CC mgos_rpc_channel_uart.o
+  CC mgos_wifi.o
+  CC mjs_wifi.o
+  CC esp32_wifi.o
+  GEN   /home/sk/mos/empty/build/gen/ffi_exports.c
+  GEN   /home/sk/mos/empty/build/gen/mg_build_info.c
+CC /home/sk/mos/empty/build/objs/ffi_exports.o
+  CC mg_build_info.o
+  GEN   /home/sk/mos/empty/build/gen/build_info.c
+  CC build_info.o
+AR /home/sk/mos/empty/build/objs/mosapp/libmosapp.a
+make[1]: Leaving directory '/home/sk/mos/empty/build/objs/mosapp'
+LD /home/sk/mos/empty/build/objs/empty.elf
+esptool.py v2.6
+    App size: 889728 of 1572864 (56%)
+  CP    /home/sk/mos/empty/deps/ca-bundle/fs/ca.pem -> /home/sk/mos/empty/build/objs/fs
+  CP    /home/sk/mos/empty/fs/index.html -> /home/sk/mos/empty/build/objs/fs
+  CP    /home/sk/mos/empty/build/gen/conf0.json -> /home/sk/mos/empty/build/objs/fs
+  MKFS  /usr/local/bin/mkspiffs8 262144 {bs: 4096, ps: 256, es: 4096} /home/sk/mos/empty/build/objs/fs -> /home/sk/mos/empty/build/objs/fw_temp/fs.img
+     FS params: size=262144, bs=4096, ps=256, es=4096
+       Adding conf0.json: 3
+       Adding index.html: 70
+       Adding ca.pem: 27086
+     FS stats : space total=233681, used=28614, free=205067
+  GEN    /home/sk/mos/empty/build/objs/fw_temp/manifest.json
+  ZIP    /home/sk/mos/empty/build/fw/empty-esp32-last.zip
+     Adding /home/sk/mos/empty/build/objs/fw_temp/bootloader.bin
+     Adding /home/sk/mos/empty/build/objs/fw_temp/empty.bin
+     Adding /home/sk/mos/empty/build/objs/fw_temp/fs.img
+     Adding /home/sk/mos/empty/build/objs/fw_temp/otadata.bin
+     Adding /home/sk/mos/empty/build/objs/fw_temp/partitions_mgos.bin
+  Built empty/esp32 version 1.0 (20190804-230746/2.13.0-ge44f822-master-dirty)
+To flash all build output, run 'make flash' or:
+python /opt/Espressif/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 1500000 --before default_reset --after hard_reset write_flash -z --flash_mode qio --flash_freq 40m --flash_size detect 0xd000 /home/sk/mos/empty/build/objs/ota_data_initial.bin 0x1000 /home/sk/mos/empty/build/objs/bootloader/bootloader.bin 0x10000 /home/sk/mos/empty/build/objs/empty.bin 0x8000 /home/sk/mos/empty/build/objs/partitions_mgos.bin
+make: Leaving directory '/app'
+Success, built empty/esp32 version 1.0 (20190804-230746/2.13.0-ge44f822-master-dirty).
+Firmware saved to /home/sk/mos/empty/build/fw.zip
