@@ -6,6 +6,8 @@
   Unity.CurrentTestName = #TestFunc; \
   Unity.CurrentTestLineNumber = TestLineNum; \
   Unity.NumberOfTests++; \
+  CMock_Init(); \
+  UNITY_CLR_DETAILS(); \
   if (TEST_PROTECT()) \
   { \
       setUp(); \
@@ -14,7 +16,9 @@
   if (TEST_PROTECT()) \
   { \
     tearDown(); \
+    CMock_Verify(); \
   } \
+  CMock_Destroy(); \
   UnityConcludeTest(); \
 }
 
@@ -23,10 +27,12 @@
 #define UNITY_INCLUDE_SETUP_STUBS
 #endif
 #include "unity.h"
+#include "cmock.h"
 #ifndef UNITY_EXCLUDE_SETJMP_H
 #include <setjmp.h>
 #endif
 #include <stdio.h>
+#include "mock_mgos_i2c.h"
 
 int GlobalExpectCount;
 int GlobalVerifyOrder;
@@ -37,6 +43,23 @@ extern void setUp(void);
 extern void tearDown(void);
 extern void test_ds3231_get_seconds();
 
+
+/*=======Mock Management=====*/
+static void CMock_Init(void)
+{
+  GlobalExpectCount = 0;
+  GlobalVerifyOrder = 0;
+  GlobalOrderError = NULL;
+  mock_mgos_i2c_Init();
+}
+static void CMock_Verify(void)
+{
+  mock_mgos_i2c_Verify();
+}
+static void CMock_Destroy(void)
+{
+  mock_mgos_i2c_Destroy();
+}
 
 /*=======Suite Setup=====*/
 static void suite_setup(void)
@@ -60,7 +83,10 @@ static int suite_teardown(int num_failures)
 void resetTest(void);
 void resetTest(void)
 {
+  CMock_Verify();
+  CMock_Destroy();
   tearDown();
+  CMock_Init();
   setUp();
 }
 
@@ -70,7 +96,8 @@ int main(void)
 {
   suite_setup();
   UnityBegin("test_ds3231.c");
-  RUN_TEST(test_ds3231_get_seconds, 17);
+  RUN_TEST(test_ds3231_get_seconds, 18);
 
+  CMock_Guts_MemFreeFinal();
   return suite_teardown(UnityEnd());
 }

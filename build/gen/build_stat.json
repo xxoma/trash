@@ -1,6 +1,6 @@
 {
   "arch": "esp32",
   "platform": "esp32",
-  "app_name": "empty",
-  "build_time_ms": 9664
+  "app_name": "trash",
+  "build_time_ms": 29552
 }

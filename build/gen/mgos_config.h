@@ -1,7 +1,7 @@
 /* clang-format off */
 /*
  * Generated file - do not edit.
- * Command: /home/sk/mos/empty/deps/modules/mongoose-os/tools/mgos_gen_config.py --c_name=mgos_config --c_global_name=mgos_sys_config --dest_dir=/home/sk/mos/empty/build/gen/ /home/sk/mos/empty/deps/modules/mongoose-os/src/mgos_debug_udp_config.yaml /home/sk/mos/empty/deps/modules/mongoose-os/platforms/esp32/src/esp32_sys_config.yaml /home/sk/mos/empty/build/gen/mos_conf_schema.yml
+ * Command: /home/sk/mos/trash/deps/modules/mongoose-os/tools/mgos_gen_config.py --c_name=mgos_config --c_global_name=mgos_sys_config --dest_dir=/home/sk/mos/trash/build/gen/ /home/sk/mos/trash/deps/modules/mongoose-os/src/mgos_debug_udp_config.yaml /home/sk/mos/trash/deps/modules/mongoose-os/platforms/esp32/src/esp32_sys_config.yaml /home/sk/mos/trash/build/gen/mos_conf_schema.yml
  */
 
 #pragma once

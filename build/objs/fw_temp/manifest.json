@@ -1,20 +1,20 @@
 {
-  "build_id": "20190804-230746/2.13.0-ge44f822-master-dirty",
-  "build_timestamp": "2019-08-04T23:07:46Z",
-  "name": "empty",
+  "build_id": "20190805-014007/gf13985d-master-dirty",
+  "build_timestamp": "2019-08-05T01:40:07Z",
+  "name": "trash",
   "parts": {
     "app": {
       "addr": 65536,
-      "cs_sha1": "2770565c6b90b7b7d799dfe10391ac7b85bb7418",
+      "cs_sha1": "952866ca64dda0f177981a1fb441da7ed0b39ae3",
       "encrypt": true,
       "ptn": "app_0",
-      "size": 889728,
-      "src": "empty.bin",
+      "size": 889712,
+      "src": "trash.bin",
       "type": "app"
     },
     "boot": {
       "addr": 4096,
-      "cs_sha1": "b8f0930b1549b4bc999fb7672289d406c9aa1e61",
+      "cs_sha1": "324bafa2940fa63debabd11def092bdf8f91147e",
       "encrypt": true,
       "size": 22848,
       "src": "bootloader.bin",

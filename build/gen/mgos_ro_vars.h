@@ -1,7 +1,7 @@
 /* clang-format off */
 /*
  * Generated file - do not edit.
- * Command: /home/sk/mos/empty/deps/modules/mongoose-os/tools/mgos_gen_config.py --c_name=mgos_ro_vars --c_global_name=mgos_sys_ro_vars --dest_dir=/home/sk/mos/empty/build/gen/ /home/sk/mos/empty/deps/modules/mongoose-os/src/mgos_ro_vars_schema.yaml
+ * Command: /home/sk/mos/trash/deps/modules/mongoose-os/tools/mgos_gen_config.py --c_name=mgos_ro_vars --c_global_name=mgos_sys_ro_vars --dest_dir=/home/sk/mos/trash/build/gen/ /home/sk/mos/trash/deps/modules/mongoose-os/src/mgos_ro_vars_schema.yaml
  */
 
 #pragma once

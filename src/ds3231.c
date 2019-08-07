@@ -1,8 +1,9 @@
 #include "mgos.h"
 #include "mgos_i2c.h"
+
 #include "ds3231.h"
 
-void ds3231_err_msg()
+static void ds3231_err_msg()
 {
     LOG(LL_ERROR, ("i2c bus is disabled, set i2c.enable=true"));
 }
