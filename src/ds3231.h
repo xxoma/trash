@@ -10,5 +10,7 @@
 int ds3231_get_seconds();
 int ds3231_get_minutes();
 int ds3231_get_hours();
+bool ds3231_get_is_12_hour_format();
+bool ds3231_set_time(char hours, char minutes, char seconds);
 
 #endif

@@ -46,10 +46,21 @@ filesystem:
 #  - ["debug.level", 3]
 
 config_schema:
- - ["i2c.enable", true]
- - ["i2c.sda_gpio", 21]
- - ["i2c.scl_gpio", 22]
-#   - ["i2c.freq", "i", 1000, {title: "I2C bus speed"}]
+  - ["i2c.enable", true]
+  - ["i2c.sda_gpio", 21]
+  - ["i2c.scl_gpio", 22]
+  - ["ssd1306", "o", {title: "SSD1306 Settings"}]
+  - ["ssd1306.enable", "b", true, {title: "Enable SSD1306"}]
+  - ["ssd1306.width", "i", 128, {title: "Screen width"}]
+  - ["ssd1306.height", "i", 32, {title: "Screen height"}]
+  - ["ssd1306.address", "i", 0x3c, {title: "Screen controller I2C address"}]
+  - ["ssd1306.i2c", "o", {title: "SSD1306 I2C settings"}]
+  - ["ssd1306.i2c.enable", "b", true, {title: "Enable SSD1306-specific I2C configuration"}]
+  - ["ssd1306.i2c.freq", "i", 400000, {title: "Clock frequency"}]
+  - ["ssd1306.i2c.unit_no", "i", 1, {title: "Which hardware unit to use, 0 or 1"}]
+  - ["ssd1306.i2c.debug", "b" , true, {title: "Debug I2C bus activity"}]
+  - ["ssd1306.i2c.sda_gpio", "i", 5, {title: "GPIO to use for SDA"}]
+  - ["ssd1306.i2c.scl_gpio", "i", 4, {title: "GPIO to use for SCL"}]
 
 libs:
   - origin: https://github.com/mongoose-os-libs/boards
@@ -58,6 +69,7 @@ libs:
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
   - origin: https://github.com/mongoose-os-libs/rpc-uart
   - origin: https://github.com/mongoose-os-libs/i2c
+  - origin: https://github.com/mongoose-os-libs/ssd1306
 
 # Used by the mos tool to catch mos binaries incompatible with this file format
 manifest_version: 2017-09-29
