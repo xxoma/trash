@@ -16,35 +16,24 @@
  */
 
 #include "mgos.h"
-#include "ds3231.h"
 #include "ssd1306.h"
+#include "ds3231.h"
+#include "clock.h"
+
+struct time now_time;
+char time_str[9] = {};
+bool tik_tok = false;
 
 static void timer_cb(void *arg) {
 
-  char hours[3];
-  char minutes[3];
-  char seconds[3];
+  tik_tok = !tik_tok;
 
-  snprintf(hours, 3, "%d", ds3231_get_hours());
-  snprintf(minutes, 3, "%d", ds3231_get_minutes());
-  snprintf(seconds, 3, "%d", ds3231_get_seconds());
+  clock_get_current_time(&now_time); // call to update time
+  clock_get_time_str(&now_time, time_str, ':', ':', tik_tok);
 
   mgos_ssd1306_clear(arg);
   mgos_ssd1306_draw_hline(arg, 0, 0, 128, SSD1306_COLOR_WHITE);
-  if (ds3231_get_hours() < 9) {
-    mgos_ssd1306_draw_string(arg, 30, 11, "0");
-  }
-  mgos_ssd1306_draw_string(arg, 40, 11, hours);
-  mgos_ssd1306_draw_string(arg, 50, 11, ":");
-  if (ds3231_get_minutes() < 9) {
-    mgos_ssd1306_draw_string(arg, 60, 11, "0");
-  }
-  mgos_ssd1306_draw_string(arg, 70, 11, minutes);
-  mgos_ssd1306_draw_string(arg, 80, 11, ":");
-  if (ds3231_get_seconds() < 9) {
-    mgos_ssd1306_draw_string(arg, 90, 11, "0");
-  }
-  mgos_ssd1306_draw_string(arg, 100, 11, seconds);
+  mgos_ssd1306_draw_string(arg, 40, 11, time_str);
   mgos_ssd1306_draw_hline(arg, 0, 31, 128, SSD1306_COLOR_WHITE);
   mgos_ssd1306_refresh(arg, true);
 
@@ -68,6 +57,6 @@ enum mgos_app_init_result mgos_app_init(void) {
 
   mgos_ssd1306_select_font (dsp, 2);
 
-  mgos_set_timer(1000 /* ms */, MGOS_TIMER_REPEAT, timer_cb, dsp);
+  mgos_set_timer(500 /* ms */, MGOS_TIMER_REPEAT, timer_cb, dsp);
   return MGOS_APP_INIT_SUCCESS;
 }

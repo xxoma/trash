@@ -68,14 +68,74 @@ int ds3231_get_hours()
     return hours;
 }
 
-bool ds3231_set_time(char hours, char minutes, char seconds)
+bool ds3231_set_seconds(char seconds)
 {
 
-    if (hours > 23 || minutes > 59 || seconds > 59) {
+    if (seconds > 59) {
         return false;
     }
 
     bool result = false;
+
+    struct mgos_i2c *i2c = mgos_i2c_get_global();
+
+    if (!i2c) {
+        ds3231_err_msg();
+        
+        return false;
+    }
+
+
+    int l = 0;
+    int h = 0;
+
+    l = (seconds % 10);
+    h = (seconds - l) / 10;
+
+    seconds = h << 4 | l;
+
+    result = mgos_i2c_write_reg_b(i2c, DS3231_I2C_ADDR, SECONDS_REGISTER, seconds);
+
+    return result;
+}
+
+bool ds3231_set_minutes(char minutes)
+{
+
+    if (minutes > 59) {
+        return false;
+    }
+
+    bool result = false;
+
+    struct mgos_i2c *i2c = mgos_i2c_get_global();
+
+    if (!i2c) {
+        ds3231_err_msg();
+        
+        return false;
+    }
+
+
+    int l = 0;
+    int h = 0;
+
+    l = (minutes % 10);
+    h = (minutes - l) / 10;
+
+    minutes = h << 4 | l;
+
+    result = mgos_i2c_write_reg_b(i2c, DS3231_I2C_ADDR, MINUTES_REGISTER, minutes);
+
+    return result;
+}
+
+bool ds3231_set_hours(char hours)
+{
+
+    if (hours > 23) {
+        return false;
+    }
 
     struct mgos_i2c *i2c = mgos_i2c_get_global();
 
@@ -93,35 +153,7 @@ bool ds3231_set_time(char hours, char minutes, char seconds)
         hours = hours % 10;
     }
 
-    result = mgos_i2c_write_reg_b(i2c, DS3231_I2C_ADDR, HOUR_REGISTER, hours);
-
-    if (!result) {
-        return false;
-    }
-
-    int l = 0;
-    int h = 0;
-    
-        
-    l = (minutes % 10);
-    h = (minutes - l) / 10;
-
-    minutes = h << 4 | l;
-
-    result = mgos_i2c_write_reg_b(i2c, DS3231_I2C_ADDR, MINUTES_REGISTER, minutes);
-
-    if (!result) {
-        return false;
-    }
-
-    l = (seconds % 10);
-    h = (seconds - l) / 10;
-
-    seconds = h << 4 | l;
-
-    result = mgos_i2c_write_reg_b(i2c, DS3231_I2C_ADDR, SECONDS_REGISTER, seconds);
-
-    return result;
+    return mgos_i2c_write_reg_b(i2c, DS3231_I2C_ADDR, HOUR_REGISTER, hours);
 }
 
 bool ds3231_get_is_12_hour_format()
